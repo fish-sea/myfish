@@ -33,7 +33,7 @@ public static void main(String[] args){
     System.out.println("你还要租其他车型吗？ 1：继续租其他车型 0：不租了");
     if(in.nextInt()==0) break;
 	}
-	System.out.println(money);
+	System.out.println("感谢您的使用！您应该付："+money+"元");
 }
 }
 public static int pay(int price,int count,int day){
